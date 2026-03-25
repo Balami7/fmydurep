@@ -6,7 +6,7 @@ const FooterBar = () => {
     return (
         <footer className={' w-screen py-20 bg-[#277B12] flex flex-row justify-evenly items-center bottom-0 left-0 right-0'}>
             <div className={'flex flex-col justify-center space-y-4 items-center'}>
-                <Image src={'/images/urep_large.png'} alt={'FMYD LOGO'} width={150} height={150}/>
+                <Image src={'/urep_large.png'} alt={'FMYD LOGO'} width={150} height={150}/>
                 <h1 className={'text-6xl font-bold text-white'}>UREP</h1>
             </div>
 
