@@ -29,7 +29,7 @@ export default function PartnershipGallery() {
   }, [nextSlide]);
 
   return (
-    <section className="bg-white py-12 min-[741px]:py-20 min-[1011px]:py-24 overflow-hidden">
+    <section className="bg-white py-12 min-[741px]:py-20 min-[1011px]:py-24 overflow-hidden border-b-[1px] border-green-500">
   <div className="mx-auto max-w-7xl px-4 min-[741px]:px-10 lg:px-20 flex flex-col">
 
     {/* ROW CONTAINER */}
