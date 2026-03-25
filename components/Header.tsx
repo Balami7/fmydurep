@@ -26,7 +26,7 @@ const Header = () => {
             </div>
 
             {/* Main White Header */}
-            <div className="w-full flex flex-col md:flex-row items-center justify-between px-6 py-6 bg-white shadow-sm gap-4">
+            <div className="w-full flex flex-col md:flex-row items-center justify-between px-6 py-6 bg-white shadow-sm gap-4" border-b-[1px] border-green-500>
                 <div className="flex items-center">
                     <Image 
                         className="mr-2" 
