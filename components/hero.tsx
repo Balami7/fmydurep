@@ -91,7 +91,7 @@ export default function PartnershipGallery() {
       <div className="hidden min-[741px]:block w-1/4">
         <div className="relative w-full aspect-square rounded-xl overflow-hidden border-2 border-gray-200">
           <Image
-            src="/newer_pic.png"
+            src="/woman2.jpeg"
             alt="After slideshow image"
             fill
             className="object-cover"
