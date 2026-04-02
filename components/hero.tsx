@@ -5,9 +5,9 @@ import Image from 'next/image';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const galleryImages = [
-  { src: '/corpers.png', alt: 'Partnership 1' },
-  { src: '/chef_small.png', alt: 'Partnership 2' },
-  { src: '/students.png', alt: 'Partnership 3' },
+  { src: '/corper1.png', alt: 'Partnership 1' },
+  { src: '/chefsmall1.png', alt: 'Partnership 2' },
+  { src: '/student1.png', alt: 'Partnership 3' },
 ];
 
 export default function PartnershipGallery() {
@@ -29,15 +29,15 @@ export default function PartnershipGallery() {
   }, [nextSlide]);
 
   return (
-    <section className="bg-white py-12 min-[741px]:py-20 min-[1011px]:py-24 overflow-hidden">
+    <section className="bg-white py-12 min-[741px]:py-20 min-[1011px]:py-24 overflow-hidden border-b-[1px] border-green-500">
   <div className="mx-auto max-w-7xl px-4 min-[741px]:px-10 lg:px-20 flex flex-col">
 
-    {/* ROW CONTAINER */}
+   
     <div className="flex flex-row items-center justify-center gap-4 w-full">
       
       {/* Image BEFORE (Left) */}
       <div className="hidden min-[741px]:block w-1/4">
-        <div className="relative w-full aspect-square rounded-xl overflow-hidden border-2 border-gray-200">
+        <div className="relative w-full h-80 aspect-square rounded-xl overflow-hidden border-2 border-gray-200">
           <Image
             src="/man1.png"
             alt="Before slideshow image"
@@ -89,7 +89,7 @@ export default function PartnershipGallery() {
 
       {/* Image AFTER (Right) */}
       <div className="hidden min-[741px]:block w-1/4">
-        <div className="relative w-full aspect-square rounded-xl overflow-hidden border-2 border-gray-200">
+        <div className="relative w-full h-80 aspect-square rounded-xl overflow-hidden border-2 border-gray-200">
           <Image
             src="/woman2.jpeg"
             alt="After slideshow image"
