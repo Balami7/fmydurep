@@ -39,7 +39,7 @@ const Header = () => {
                 </div>
 
                 <div className="flex flex-col items-center text-center">
-                    <h1 className="text-black text-xl sm:text-4xl font-bold">Yopi Tracker</h1>
+                    <h1 className="text-black text-xl sm:text-4xl font-bold">National Youth Data Bank</h1>
                     <p className="text-black text-xs sm:text-sm italic font-medium">a one stop shop for youth activities.</p>
                 </div>
 
