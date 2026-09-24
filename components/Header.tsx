@@ -44,10 +44,10 @@ const Header = () => {
                 </div>
 
                 <nav className="flex flex-wrap items-center justify-center gap-4 lg:gap-8">
-                    <Link className="text-black text-sm sm:text-base hover:text-[#277B12] font-medium" href="/app">Home</Link>
-                    <Link className="text-black text-sm sm:text-base hover:text-[#277B12] font-medium" href="/about">About</Link>
+                    <Link className="text-black text-sm sm:text-base hover:text-[#277B12] font-medium" href="#">Home</Link>
+                    <Link className="text-black text-sm sm:text-base hover:text-[#277B12] font-medium" href="">About</Link>
                     <Link className="text-black text-sm sm:text-base hover:text-[#277B12] font-medium" href="https://urep-ng.vercel.app/urep">UREP</Link>
-                    <Link className="text-black text-sm sm:text-base hover:text-[#277B12] font-medium" href="/endorser">Endorser</Link>
+                    <Link className="text-black text-sm sm:text-base hover:text-[#277B12] font-medium" href="">Endorser</Link>
                     <Link className="text-black text-sm sm:text-base hover:text-[#277B12] font-medium" href="/youth">Youth Databank</Link>
                 </nav>
             </div>
